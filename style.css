@@ -1,0 +1,244 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+   margin-left: 2px;
+  
+   width: 100%;
+
+}
+
+.navbar a:hover {
+    background-color: rgb(246, 235, 235);
+  }
+
+  .w-5 {
+    width: 1.25rem;
+}
+.h-5 {
+    height: 1.25rem;
+}
+  
+  /* Current/active navbar link */
+  .active {
+
+    display: flex;
+    /* margin-right: 7px; */
+    padding-right: 21px;
+    padding-top: 4px;
+
+    background-color: #04AA6D;
+    border:2px solid #04AA6D;
+    border-radius: 45px;
+
+    width: 75px;
+  }
+
+.d1{
+    display: flex;
+     margin-right: 20px;
+}
+
+
+
+.g1{
+    height: 18px;
+    width: 21px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-left: 10px;
+
+  }
+
+  .g2{
+    height: 21px;
+    border: 1px white;
+    border-radius: 50px;
+    padding-right: 4px;
+    width: 24px;
+    padding-left: 7px;
+    padding-top: 2px;
+
+
+  }
+
+  .un1{
+    margin-top: 4px;
+    background-color: gold;
+    border: 1px solid gold;
+    border-radius: 40px;
+    margin-right: 16px;
+    padding-right: 10px;
+}
+ 
+
+  .un2{
+    margin-top: 4px;
+    background-color: gold;
+    border: 1px solid gold;
+    border-radius: 40px;
+    padding-right: 9px;
+    width: 85px;
+        
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#AlbumExample{
+    font-size: 40px;
+    margin-bottom: 14px;
+    margin-top: 74px;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+#para{
+    
+    margin-left: 125px;
+    margin-right: 120px;
+}
+
+
+
+h2{
+    font-family: fantasy;
+}
+
+.p10{
+    font-family: monospace;
+}
+
+.x{
+    margin-bottom: -23px;
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    font-family: fantasyS
+    /* animation: text 3s 1; */
+}
+
+/* .x:hover{
+    width: 40px;
+} */
+
+
+
+.albums{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(154, 197, 213, 0.813);
+    
+    border-radius: 57px;
+    margin-top: 30px;
+    
+}
+
+
+
+
+.album{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: black;
+    padding: 14px;
+    border-radius: 10px;
+    transition: width 2s, height 2s, transform 2s;
+
+}
+
+.album:hover {
+    width: 310px;
+    
+
+}
+
+.album .thumbnail img{
+    width: 100%;
+   
+}
+
+.details{
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.album .details .details-footer{
+
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+}
+
+img.round{
+    border-radius: 20px;
+}
+
+
+body {
+	background: linear-gradient(-45deg, #e7ae9d, #cb8ba3, #8ec6da, #9defdc);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@media(max-width:400px) {
+    .navbar{
+        display: block;
+    }
+
+    
+}
+
+
+
+h1{
+    color: #000000fa;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer
+  }
+  h1 span{
+    transition: .5s linear
+  }
+  h1:hover span:nth-child(1){
+    margin-right: 5px
+  }
+  
+  h1:hover span:nth-child(2){
+    margin-left: 30px
+  }
+  h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px rgb(201, 201, 201);
+  }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <Section>
+        <div class="navbar">
+            <a class="active" href="index.html"><i class="home"></i> 
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
+                </svg>
+                <p style="margin-bottom: -2px;
+                margin-top: 2px;
+            ">Home</p>
+                
+            </a>
+           
+            
+            <a class="un" href="login.html" "><i class="user"></i>
+                <img class="g" src="login.png" alt="">
+                 Login
+            </a>
+        </div>
+        <div class="m">
+            <div class="top" style="box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
+                <div class="pic">
+                 <div id = "sign">
+                     <h1 style="font-size: 40px;">Sign Up</h1>
+                     <p style="font-family: 'Roboto Condensed', sans-serif;margin-left: 25px;">Already have an account? <a href="login.html"><i class="user"></i> Login</a> </p>
+                 </div>
+                 <div class="im">
+                     <img src="draw1.webp" alt="">
+     
+                 </div>
+                </div>
+             
+               <div>
+                   <form>
+                    <div>
+                        <p class="p2">Name</p>
+                    <input type="text" id="form1Example" class="ei" placeholder="enter your name" / required> 
+                    <p class="p3">Phone Number</p>
+                    <input type="tel" id="form1Exampl" class="ei" placeholder="9798XXXXXX" minlength="10" maxlength="10"/ required>
+                     <p class="p4">Email Address</p>
+                     <input type="email" id="form1Example1" class="ei" placeholder="john@xyz.com" / required> 
+                     <p class="p5">Enter Password</p>
+                     <input type="password" id="form1Example13" class="ei" name="password1" placeholder="password"/ required>
+                     <p class="p6">Confirm Password</p>
+                     <input type="password" id="form1Examp" class="ei" name="password2" placeholder="password"/ required>
+                    </div>
+
+                    <div class="b">
+                        <button onclick="matchPassword()" id="b1">Sign Up</button>
+                    </div>
+                    
+                   </form>
+               </div>
+             </div>
+        </div>
+        
+    </Section>
+       
+    <script src="signup.js"></script>
+</body>
+</html>

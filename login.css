@@ -1,0 +1,196 @@
+body
+{
+    background-color: gray;
+    background-color: aliceblue;
+
+}
+
+
+.all{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    margin: 15px;
+    height: -1%;
+    margin-bottom: 61px;
+    
+  }
+
+  .navbar a {
+    display: flex;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: rgb(246, 235, 235);
+  }
+
+  .w-5 {
+    width: 1.25rem;
+}
+.h-5 {
+    height: 1.25rem;
+}
+
+.active {
+    background-color: #04AA6D;
+    border:2px solid #04AA6D;
+    border-radius: 45px;
+  }
+
+  .g{
+    height: 18px;
+    width: 21px;
+    padding-right: 2px;
+  }
+
+
+
+.navbar a:hover {
+    background-color: rgb(246, 235, 235);
+  }
+
+.un{
+    margin-top: 4px;
+        background-color: gold;
+        border: 1px solid gold;
+        border-radius: 40px
+        
+}
+
+h1{
+    font-size: xx-large;
+}
+
+.image{
+    width: 60%;
+    display: flex;
+    margin-left: -8px;
+    padding-top: 10px;
+}
+
+img{
+    width: 75%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.p2{
+    font-size: 20px;
+    margin: 4px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.p3
+{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    width: 41%;
+}
+
+.ei{
+    width: 73%;
+    padding-bottom: 5px;
+    font-size: 17px;
+    /* padding-right: 177px; */
+    padding-top: 9px;
+    margin-bottom: 14px;
+    border: 1px solid rgb(9, 9, 9);
+    border-radius: 8px;
+    background-color: rgb(229 231 235/var(--tw-bg-opacity));
+}
+
+
+.r{
+    display: flex;
+    margin-bottom: 14px;
+    
+}
+
+.f{
+    margin-left: 90px;
+}
+
+#b{
+    padding-bottom: 4px;
+    font-size: 128%;
+    padding-top: 8px;
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+
+.p1{
+    margin: 0px;
+
+}
+
+.o{
+    margin-bottom: 10px;
+    padding-left: 35%;
+}
+
+
+.cb{
+    width: 75%;
+    height: 30px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(218, 237, 237);
+}
+
+@media(max-width:500px)
+{
+    .all{
+        display: block;
+       
+    }
+
+    .image{
+        justify-content: center;
+    }
+}
+
+@media(max-width:300px)
+{
+
+    .navbar{
+        display: block;
+    }
+    
+
+    .image{
+        display: none;
+    }
+
+    .e{
+       margin-bottom: -19px;
+    }
+}
